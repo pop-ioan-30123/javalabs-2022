@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="isp.lab4.exercise6.HourlyEmployeeTest" time="0.002" tests="1" errors="0" skipped="0" failures="0">
+  <properties>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="java.vm.version" value="17.0.2+8-LTS-86"/>
+    <property name="sun.boot.library.path" value="E:\Programe facultate an2\bin"/>
+    <property name="maven.multiModuleProjectDirectory" value="C:\Users\ionic\OneDrive\Desktop\ISP\isp-labs-2022-pop-ioan-30123\isp-lab-4-master\isp-lab-4-master"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="java.vendor.url" value="https://java.oracle.com/"/>
+    <property name="guice.disable.misplaced.annotation.check" value="true"/>
+    <property name="path.separator" value=";"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="user.script" value=""/>
+    <property name="user.country" value="US"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="test" value="isp.lab4.exercise6.HourlyEmployeeTest"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="user.dir" value="C:\Users\ionic\OneDrive\Desktop\ISP\isp-labs-2022-pop-ioan-30123\isp-lab-4-master\isp-lab-4-master"/>
+    <property name="java.vm.compressedOopsMode" value="32-bit"/>
+    <property name="java.runtime.version" value="17.0.2+8-LTS-86"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.io.tmpdir" value="C:\Users\ionic\AppData\Local\Temp\"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="user.variant" value=""/>
+    <property name="os.name" value="Windows 11"/>
+    <property name="maven.ext.class.path" value="E:\Programe facultate an2\Netbeans\NetBeans-12.6\netbeans\java\maven-nblib\netbeans-eventspy.jar"/>
+    <property name="classworlds.conf" value="C:\Users\ionic\.m2\wrapper\dists\apache-maven-3.5.2-bin\7hf0mht29afbpa1e4v2d1a16p0\apache-maven-3.5.2\bin\m2.conf"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.library.path" value="E:\Programe facultate an2\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files\Common Files\Oracle\Java\javapath;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR;C:\Program Files\Git\cmd;C:\Program Files\nodejs\;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\dotnet\;C:\Program Files\Microsoft SQL Server\130\Tools\Binn\;C:\Program Files\Microsoft SQL Server\Client SDK\ODBC\170\Tools\Binn\;e:\ACTIVE~1\ACTIVE~2\BIN;e:\ACTIVE~1\BIN;C:\Users\ionic\OneDrive\Desktop\Installere\apache-maven-3.8.4-bin\apache-maven-3.8.4\bin;E:\Programe facultate an2\MATLAB\runtime\win64;E:\Programe facultate an2\MATLAB\bin;C:\Program Files (x86)\Microsoft SQL Server\150\Tools\Binn\;C:\Program Files\Microsoft SQL Server\150\Tools\Binn\;C:\Program Files\Microsoft SQL Server\150\DTS\Binn\;C:\Program Files (x86)\Microsoft SQL Server\150\DTS\Binn\;C:\Program Files\Azure Data Studio\bin;E:\Matlab\runtime\win64;E:\Matlab\bin;C:\Program Files\MySQL\MySQL Shell 8.0\bin\;C:\Users\ionic\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\ionic\OneDrive\Desktop\Bots JS\ffmpeg\ffmpeg\bin;C:\Users\ionic\OneDrive\Desktop\Bots JS\ffmpeg\bin;C:\ffmpeg\bin;C:\Users\ionic\AppData\Roaming\npm;C:\Program Files\heroku\bin;C:\Users\ionic\AppData\Local\Microsoft\WindowsApps;C:\Users\ionic\.dotnet\tools;;E:\Programe facultate an2\Intellij\IntelliJ IDEA Community Edition 2021.3.2\bin;;C:\Program Files\Azure Data Studio\bin;."/>
+    <property name="maven.conf" value="C:\Users\ionic\.m2\wrapper\dists\apache-maven-3.5.2-bin\7hf0mht29afbpa1e4v2d1a16p0\apache-maven-3.5.2/conf"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="java.class.version" value="61.0"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="os.version" value="10.0"/>
+    <property name="user.home" value="C:\Users\ionic"/>
+    <property name="user.timezone" value="Europe/Bucharest"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="java.specification.version" value="17"/>
+    <property name="user.name" value="ionic"/>
+    <property name="java.class.path" value="C:\Users\ionic\OneDrive\Desktop\ISP\isp-labs-2022-pop-ioan-30123\isp-lab-4-master\isp-lab-4-master\.mvn\wrapper\maven-wrapper.jar"/>
+    <property name="java.vm.specification.version" value="17"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="sun.java.command" value="org.apache.maven.wrapper.MavenWrapperMain -Dtest=isp.lab4.exercise6.HourlyEmployeeTest -Dmaven.ext.class.path=E:\Programe facultate an2\Netbeans\NetBeans-12.6\netbeans\java\maven-nblib\netbeans-eventspy.jar -Dfile.encoding=UTF-8 surefire:test"/>
+    <property name="java.home" value="E:\Programe facultate an2"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.vm.info" value="mixed mode, sharing"/>
+    <property name="java.version" value="17.0.2"/>
+    <property name="native.encoding" value="Cp1252"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="maven.home" value="C:\Users\ionic\.m2\wrapper\dists\apache-maven-3.5.2-bin\7hf0mht29afbpa1e4v2d1a16p0\apache-maven-3.5.2"/>
+    <property name="file.separator" value="\"/>
+    <property name="java.version.date" value="2022-01-18"/>
+    <property name="java.vendor.url.bug" value="https://bugreport.java.com/bugreport/"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+  </properties>
+  <testcase name="getPaymentAmountTest" classname="isp.lab4.exercise6.HourlyEmployeeTest" time="0.002"/>
+</testsuite>
