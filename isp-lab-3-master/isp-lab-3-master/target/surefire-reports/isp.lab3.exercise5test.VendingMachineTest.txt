@@ -1,0 +1,8 @@
+-------------------------------------------------------------------------------
+Test set: isp.lab3.exercise5test.VendingMachineTest
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.042 sec <<< FAILURE! - in isp.lab3.exercise5test.VendingMachineTest
+testdisplayProducts(isp.lab3.exercise5test.VendingMachineTest)  Time elapsed: 0.007 sec  <<< ERROR!
+java.lang.NoSuchFieldError: products
+	at isp.lab3.exercise5test.VendingMachineTest.testdisplayProducts(VendingMachineTest.java:24)
+
