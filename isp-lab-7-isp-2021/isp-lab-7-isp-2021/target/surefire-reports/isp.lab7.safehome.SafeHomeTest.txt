@@ -1,0 +1,55 @@
+-------------------------------------------------------------------------------
+Test set: isp.lab7.safehome.SafeHomeTest
+-------------------------------------------------------------------------------
+Tests run: 10, Failures: 9, Errors: 1, Skipped: 0, Time elapsed: 0.051 sec <<< FAILURE! - in isp.lab7.safehome.SafeHomeTest
+whenWrongPinThrowInvalidPinException(isp.lab7.safehome.SafeHomeTest)  Time elapsed: 0.005 sec  <<< FAILURE!
+java.lang.AssertionError: No exception should be added while creating new tenant
+	at org.junit.Assert.fail(Assert.java:88)
+	at isp.lab7.safehome.SafeHomeTest.whenWrongPinThrowInvalidPinException(SafeHomeTest.java:36)
+
+whenTooManyAttemptsDoorPermanentlyLocked(isp.lab7.safehome.SafeHomeTest)  Time elapsed: 0 sec  <<< FAILURE!
+java.lang.AssertionError: No exception should be thrown 
+	at org.junit.Assert.fail(Assert.java:88)
+	at isp.lab7.safehome.SafeHomeTest.whenTooManyAttemptsDoorPermanentlyLocked(SafeHomeTest.java:78)
+
+whenTenantDoesNotExistThanTenantIsAdded(isp.lab7.safehome.SafeHomeTest)  Time elapsed: 0.002 sec  <<< ERROR!
+java.lang.NullPointerException: Cannot invoke "isp.lab7.safehome.ControllerInterface.addTenant(String, String)" because "this.ctrl" is null
+	at isp.lab7.safehome.SafeHomeTest.whenTenantDoesNotExistThanTenantIsAdded(SafeHomeTest.java:157)
+
+whenCorrectPinDoorOpen(isp.lab7.safehome.SafeHomeTest)  Time elapsed: 0 sec  <<< FAILURE!
+java.lang.AssertionError: No exception should be added while creating new tenant
+	at org.junit.Assert.fail(Assert.java:88)
+	at isp.lab7.safehome.SafeHomeTest.whenCorrectPinDoorOpen(SafeHomeTest.java:25)
+
+whenDoorPermanentlyLockedAndMasterKeyIsUsedThanRetriesCountShouldBeReset(isp.lab7.safehome.SafeHomeTest)  Time elapsed: 0 sec  <<< FAILURE!
+java.lang.AssertionError: No exception should be thrown 
+	at org.junit.Assert.fail(Assert.java:88)
+	at isp.lab7.safehome.SafeHomeTest.whenDoorPermanentlyLockedAndMasterKeyIsUsedThanRetriesCountShouldBeReset(SafeHomeTest.java:114)
+
+whenTenantRemovedAccessIsAlsoRemoved(isp.lab7.safehome.SafeHomeTest)  Time elapsed: 0.001 sec  <<< FAILURE!
+java.lang.AssertionError: No exception should be added while creating new tenant
+	at org.junit.Assert.fail(Assert.java:88)
+	at isp.lab7.safehome.SafeHomeTest.whenTenantRemovedAccessIsAlsoRemoved(SafeHomeTest.java:192)
+
+whenTenantAlreadyExistsThanExceptionShouldBeThrown(isp.lab7.safehome.SafeHomeTest)  Time elapsed: 0 sec  <<< FAILURE!
+java.lang.AssertionError: No exception should be added while creating new tenant
+	at org.junit.Assert.fail(Assert.java:88)
+	at isp.lab7.safehome.SafeHomeTest.whenTenantAlreadyExistsThanExceptionShouldBeThrown(SafeHomeTest.java:166)
+
+whenTenantNotFoundThanRemoveTenantThrowsException(isp.lab7.safehome.SafeHomeTest)  Time elapsed: 0 sec  <<< FAILURE!
+java.lang.AssertionError: Wrong exception name.
+	at org.junit.Assert.fail(Assert.java:88)
+	at org.junit.Assert.assertTrue(Assert.java:41)
+	at isp.lab7.safehome.SafeHomeTest.assertExceptionType(SafeHomeTest.java:206)
+	at isp.lab7.safehome.SafeHomeTest.whenTenantNotFoundThanRemoveTenantThrowsException(SafeHomeTest.java:183)
+
+whenEnterPinDoorRevertStatus(isp.lab7.safehome.SafeHomeTest)  Time elapsed: 0.001 sec  <<< FAILURE!
+java.lang.AssertionError: No exception should be added while creating new tenant
+	at org.junit.Assert.fail(Assert.java:88)
+	at isp.lab7.safehome.SafeHomeTest.whenEnterPinDoorRevertStatus(SafeHomeTest.java:146)
+
+whenTooManyAttemptsThrowTooManyAttemptsException(isp.lab7.safehome.SafeHomeTest)  Time elapsed: 0 sec  <<< FAILURE!
+java.lang.AssertionError: No exception should be added while creating new tenant
+	at org.junit.Assert.fail(Assert.java:88)
+	at isp.lab7.safehome.SafeHomeTest.whenTooManyAttemptsThrowTooManyAttemptsException(SafeHomeTest.java:52)
+
